@@ -1,0 +1,21 @@
+{
+    "name": "remote-access-server",
+    "version": "1.0.0",
+    "description": "application for remote device management",
+    "main": "app.ts",
+    "scripts": {
+        "start:dev": "nodemon src/app.ts",
+        "start:prod": "node dist/app.js"
+    },
+    "keywords": [],
+    "author": "Magomed-R",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.14.8"
+    },
+    "dependencies": {
+        "chalk": "4.1.2",
+        "express": "^4.19.2"
+    }
+}
