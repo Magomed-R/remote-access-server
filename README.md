@@ -19,3 +19,5 @@ sudo chmod 777 /sys/class/backlight/*/brightness
 
 ## Using
 1. Install [mobile app](https://github.com/magomed-r/remote-access-client) on your phone
+2. Run mobile app and input ip address in main input
+3. Enjoy!
